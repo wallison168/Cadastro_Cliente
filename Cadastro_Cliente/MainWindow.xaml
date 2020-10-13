@@ -1,12 +1,16 @@
-﻿<Window x:Class="Cadastro_Cliente.MainWindow"
+﻿<Window x:Name="Tela_Principal" x:Class="Cadastro_Cliente.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Cadastro_Cliente"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="Tela Principal" Height="450" Width="800">
     <Grid>
-        
+        <Menu x:Name="Menu_Principal" Height="25" VerticalAlignment="Top" RenderTransformOrigin="0.504,0.579">
+            <MenuItem x:Name="imCadastro" Background="#FF6A6565" Header="Cadastro" Click="ImCadastro_Click"/>
+            <MenuItem x:Name="imListar"  Background="#FF807575" Header="Listar"/>
+        </Menu>
+
     </Grid>
 </Window>

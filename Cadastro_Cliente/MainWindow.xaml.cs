@@ -24,5 +24,11 @@ namespace Cadastro_Cliente
         {
             InitializeComponent();
         }
+
+        private void ImCadastro_Click(object sender, RoutedEventArgs e)
+        {
+            Cadastro cadastro = new Cadastro();
+            cadastro.Show();
+        }
     }
 }
