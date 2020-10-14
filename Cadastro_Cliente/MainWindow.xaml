@@ -7,7 +7,16 @@
         mc:Ignorable="d"
         Title="Tela Principal" Height="450" Width="800" ResizeMode="NoResize">
     <Grid>
-        <Menu x:Name="Menu_Principal" Height="25" VerticalAlignment="Top" RenderTransformOrigin="0.504,0.579">
+        <Grid.Background>
+            <ImageBrush ImageSource="C:\Users\WALLISON GREGORIO\Pictures\TelaDeFundo.png" Stretch="UniformToFill"/>
+        </Grid.Background>
+        <Menu x:Name="Menu_Principal" Height="19" VerticalAlignment="Top" RenderTransformOrigin="0.504,0.579">
+            <Menu.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black" Offset="0"/>
+                    <GradientStop Color="#FF00C18C" Offset="1"/>
+                </LinearGradientBrush>
+            </Menu.Background>
             <MenuItem x:Name="imCadastro" Background="#FF6A6565" Header="Cadastro" Click="ImCadastro_Click"/>
             <MenuItem x:Name="imListar"  Background="#FF807575" Header="Listar"/>
         </Menu>
