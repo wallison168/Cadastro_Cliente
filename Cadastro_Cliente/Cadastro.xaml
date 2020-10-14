@@ -7,17 +7,17 @@
         mc:Ignorable="d"
         Title="Cadastro" Height="482.143" Width="800" ResizeMode="NoResize">
     <Grid Margin="0,0,0,-2" Background="#FF343131">
-        <TextBox x:Name="tb_nome" HorizontalAlignment="Left" Height="23" Margin="42,25,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="296"/>
-        <TextBox x:Name="tb_cnpj" HorizontalAlignment="Left" Height="26" Margin="42,83,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="296"/>
-        <TextBox x:Name="tb_cpf" HorizontalAlignment="Left" Height="26" Margin="480,83,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="149"/>
-        <TextBox x:Name="tb_telefone" HorizontalAlignment="Left" Height="23" Margin="480,25,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="245"/>
-        <TextBox x:Name="tb_logradouro" HorizontalAlignment="Left" Height="26" Margin="42,146,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="296"/>
-        <TextBox x:Name="tb_numero_cas" HorizontalAlignment="Left" Height="26" Margin="480,146,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="149"/>
-        <TextBox x:Name="tb_cidade" HorizontalAlignment="Left" Height="26" Margin="42,214,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="296"/>
-        <TextBox x:Name="tb_estado_uf" HorizontalAlignment="Left" Height="26" Margin="480,214,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="149"/>
-        <TextBox x:Name="tb_bairro" HorizontalAlignment="Left" Height="26" Margin="42,278,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="296"/>
-        <TextBox x:Name="tb_cep" HorizontalAlignment="Left" Height="26" Margin="480,278,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="149"/>
-        <TextBox x:Name="tb_complemento" HorizontalAlignment="Left" Height="51" Margin="42,335,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="683"/>
+        <TextBox x:Name="tb_nome" MaxLength="45" HorizontalAlignment="Left" Height="23" Margin="42,25,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="296"/>
+        <TextBox x:Name="tb_cnpj" MaxLength="14" HorizontalAlignment="Left" Height="26" Margin="42,83,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="296"/>
+        <TextBox x:Name="tb_cpf" MaxLength="11" HorizontalAlignment="Left" Height="26" Margin="480,83,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="149"/>
+        <TextBox x:Name="tb_telefone" MaxLength="11" HorizontalAlignment="Left" Height="23" Margin="480,25,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="245"/>
+        <TextBox x:Name="tb_logradouro" MaxLength="45" HorizontalAlignment="Left" Height="26" Margin="42,146,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="296"/>
+        <TextBox x:Name="tb_numero_cas" MaxLength="4" HorizontalAlignment="Left" Height="26" Margin="480,146,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="149"/>
+        <TextBox x:Name="tb_cidade" MaxLength="45" HorizontalAlignment="Left" Height="26" Margin="42,214,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="296"/>
+        <TextBox x:Name="tb_estado_uf" MaxLength="2" HorizontalAlignment="Left" Height="26" Margin="480,214,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="149"/>
+        <TextBox x:Name="tb_bairro" MaxLength="45" HorizontalAlignment="Left" Height="26" Margin="42,278,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="296"/>
+        <TextBox x:Name="tb_cep" MaxLength="8" HorizontalAlignment="Left" Height="26" Margin="480,278,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="149"/>
+        <TextBox x:Name="tb_complemento" MaxLength="45" HorizontalAlignment="Left" Height="51" Margin="42,335,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="683"/>
         <Label Content="Nome" HorizontalAlignment="Left" Margin="42,0,0,0" VerticalAlignment="Top" Foreground="#FFD6D1D1" Width="49"/>
         <Label Content="CNPJ" HorizontalAlignment="Left" Margin="42,57,0,0" VerticalAlignment="Top" Foreground="#FFD6D1D1" Width="49"/>
         <Label Content="Telefone" HorizontalAlignment="Left" Margin="480,-1,0,0" VerticalAlignment="Top" Foreground="#FFD6D1D1" Width="58"/>
