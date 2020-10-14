@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Cadastro_Cliente"
         mc:Ignorable="d"
-        Title="Cadastro" Height="482.143" Width="800">
+        Title="Cadastro" Height="482.143" Width="800" ResizeMode="NoResize">
     <Grid Margin="0,0,0,-2" Background="#FF343131">
         <TextBox x:Name="tb_nome" HorizontalAlignment="Left" Height="23" Margin="42,25,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="296"/>
         <TextBox x:Name="tb_cnpj" HorizontalAlignment="Left" Height="26" Margin="42,83,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="296"/>

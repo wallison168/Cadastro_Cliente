@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Cadastro_Cliente"
         mc:Ignorable="d"
-        Title="Tela Principal" Height="450" Width="800">
+        Title="Tela Principal" Height="450" Width="800" ResizeMode="NoResize">
     <Grid>
         <Menu x:Name="Menu_Principal" Height="25" VerticalAlignment="Top" RenderTransformOrigin="0.504,0.579">
             <MenuItem x:Name="imCadastro" Background="#FF6A6565" Header="Cadastro" Click="ImCadastro_Click"/>
